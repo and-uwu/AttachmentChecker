@@ -19,7 +19,6 @@ namespace AttachmentChecker
         public override string Author => "and.you";
         public override string Name => "AttachmentChecker";
         public override string Prefix => "AttachmentChecker";
-        public override Version Version => new("9.5.0-r1");
         public override void OnEnabled()
         {
             base.OnEnabled();
