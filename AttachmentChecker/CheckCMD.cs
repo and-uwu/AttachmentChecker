@@ -40,7 +40,7 @@ namespace AttachmentChecker
             stb.Append("Attachments:\n");
             foreach (AttachmentIdentifier attachment in firearm.AttachmentIdentifiers)
             {
-                stb.Append($"- {attachment.Name.ToString()}\n");
+                stb.Append($"Name - {attachment.Name.ToString()}\nSlot - {attachment.Slot.ToString()}\n\n");
             }
             response = stb.ToString();
             return true;
